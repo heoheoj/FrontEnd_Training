@@ -1,0 +1,54 @@
+:root{
+    /* color */
+    --green--color: #9bc32a;
+    --light-gray-color:#f1f0ee;
+    /* size */
+    --padding: 12px;    
+
+    /*font size*/
+    --font-medium: 14px;
+    --font-small: 12px;
+}
+
+.{
+    background-color: var(--light-gray-color);
+}
+hr{
+    background-color: var(--green--color);
+    height:1px;
+}
+
+.header{
+    padding: var(--padding);
+}
+.t1 ,.t2 , .price{
+    font-weight: bold;
+}
+.t1 ,.info1{
+    color: var(--green--color);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    
+}
+
+img{
+    box-shadow: 5px 5px 5px rgba(71, 64, 64, 0.397);
+    margin-bottom: var(--padding);
+}
+
+.item{
+    margin: var(--padding);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
